@@ -95,7 +95,7 @@ open class Legend: ComponentBase
     @objc open var isDrawInsideEnabled: Bool { return drawInside }
     
     /// The text direction of the legend
-    @objc open var direction: Direction = Direction.leftToRight
+    @objc open var direction: Direction = Direction.rightToLeft
 
     @objc open var font: NSUIFont = NSUIFont.systemFont(ofSize: 10.0)
     @objc open var textColor = NSUIColor.labelOrBlack
